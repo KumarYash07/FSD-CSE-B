@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Register here</h1>
+    <form name="register" method="post" action="/register">
+        <label for="name">Name</label>
+        <input type="text" name="uname" placeholder="Enter username">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Example@gmail.com">
+        <br>
+        <label for="mobile">Mobile No</label>
+        <input type="number" name="number" placeholder="0123456789">
+        <br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" >
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="M" checked>Male
+        <input type="radio" name="gender" value="F" checked>Female
+        <br>
+        <label for="branch">Branch</label>
+        <select name="branch" id="">
+            <option value="CSE">CSE</option>
+            <option value="DS">DS</option>
+            <option value="AIML">AIML</option>
+            <option value="ECE">ECE</option>
+            <option value="IT">IT</option>
+        </select>
+        <br>
+        <label for="sem">SEM</label>
+        <select name="sem" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" rows="5" cols="50" placeholder="Enter Current Location"></textarea>
+        <br>
+        <label for="Certificate">Uplaoad Class 12 Certificate</label>
+        <input type="file" name="Certificate">
+        <br><input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
