@@ -1,6 +1,6 @@
 function waitfortwoseconds()
 {
-    const ms=new Date().getTime()+2000;
+    const ms=new Date().getTime()+5000;
     while(new Date().getTime()<ms);
 }
 function register()
